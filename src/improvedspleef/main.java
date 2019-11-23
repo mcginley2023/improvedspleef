@@ -13,6 +13,7 @@ public class main extends JavaPlugin implements Listener {
   
   @EventHandler
   public void onPlayerJoin(PlayerJoinEvent e) {
-    
+    e.getPlayer().sendMessage("HELLO");
   }
 }
+
