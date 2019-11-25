@@ -1,0 +1,7 @@
+main: improvedspleef.main
+name: ImprovedSpleef
+version: 1.0
+commands:
+    spleef:
+        description: HAHAHAHAHA
+        ussage: no
