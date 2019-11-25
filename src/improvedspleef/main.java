@@ -15,6 +15,9 @@ public class main extends JavaPlugin implements Listener {
     getServer().getPluginManager().registerEvents(new main(), this);
     this.getCommand("spleef").setExecutor(new main());
   }
+  
+  
+  @EventHandler
   @Override
   public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
     if(cmd.getName().equalsIgnoreCase("spleef")) {
