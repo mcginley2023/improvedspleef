@@ -1,0 +1,26 @@
+#____________________________________________________________________
+#                                                                    |
+#                          ~Auto Reload~                             |
+#                         ~Version: 1.2.0~                           |
+#                   Created by iFighter/Cerberus                     |
+#                                                                    |
+#____________________________________________________________________|
+
+#You currently have to restart/reload the server do apply changes here
+
+#How often should the plugin check for changes?
+tickRate: 40
+
+#Use the smart reload funktion
+smartReload: true
+
+#Uses restarts instead of reloads. Change the start script in the spigot.yml
+useRestarts: false
+
+#Ignored files
+IgnoredFiles:
+- AutoReload.jar
+
+#Do not touch this
+configVersion: 1
+
