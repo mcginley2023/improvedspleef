@@ -1,4 +1,4 @@
-main: improvedspleef.main
+main: improvedspleef.Main
 name: ImprovedSpleef
 version: 1.0
 commands:
