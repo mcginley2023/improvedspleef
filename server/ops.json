@@ -4,5 +4,11 @@
     "name": "MicroClient",
     "level": 4,
     "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "f9186a4a-b2ba-493b-a7a7-1b21c58bb8a7",
+    "name": "MissOfHell",
+    "level": 4,
+    "bypassesPlayerLimit": false
   }
 ]

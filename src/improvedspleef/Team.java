@@ -30,7 +30,7 @@ public class Team {
         Player p = this.player;
         ItemStack item = new ItemStack(Material.DIAMOND_SPADE);
         ItemMeta meta = item.getItemMeta();
-        meta.addEnchant(Enchantment.DIG_SPEED, 50, false);
+        meta.addEnchant(Enchantment.DIG_SPEED, 5, false);
         item.setItemMeta(meta);
         p.getInventory().addItem(item);
         p.updateInventory();
