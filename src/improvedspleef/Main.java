@@ -18,6 +18,7 @@ import com.coloredcarrot.api.sidebar.*;
 public class Main extends JavaPlugin implements Listener {
 
     //region Variables
+    int repeatingTask;
     public World world = this.getServer().getWorld("world");
     public Location team1start = new Location(world, 299.5, 112, 134.5, -180, 0);
     public Location team2start = new Location(world, 299.5, 112, 107.5, 0, 0);
@@ -64,10 +65,13 @@ public class Main extends JavaPlugin implements Listener {
     }
 
     public void stopGame(Player sender) {
-        refillSnow();
-        gameActive = 0;
-        sender.sendMessage(ChatColor.translateAlternateColorCodes('&', "&aSUCCESS: &fGame stopped"));
-        world.setTime(1000);
+        if(gameActive == 2) {
+            refillSnow();
+            gameActive = 0;
+            sender.sendMessage(ChatColor.translateAlternateColorCodes('&', "&aSUCCESS: &fGame stopped"));
+            world.setTime(1000);
+            Bukkit.getScheduler().cancelTask(repeatingTask);
+        }
     }
 
     public void refillSnow() {
@@ -80,6 +84,15 @@ public class Main extends JavaPlugin implements Listener {
     }
 
     public void startGame(Player sender, Player other) {
+        repeatingTask = Bukkit.getScheduler().scheduleSyncRepeatingTask(this, new Runnable() {
+            @Override
+            public void run() {
+                team1.getPlayer().setFoodLevel(20);
+                team1.getPlayer().setHealth(20);
+                team2.getPlayer().setFoodLevel(20);
+                team2.getPlayer().setHealth(20);
+            }
+        }, 0, ticks * 20);
         refillSnow();
         world.setTime(1000);
         team1 = new Team(sender);
@@ -97,9 +110,7 @@ public class Main extends JavaPlugin implements Listener {
         round = 1;
         max_round = 5;
         gameActive = 1;
-        team1.getPlayer().setFoodLevel(20);
         team1.giveItem();
-        team2.getPlayer().setFoodLevel(20);
         team2.giveItem();
         //region Title Message
         String message = ChatColor.WHITE + "Round " + round + " starting in...";
@@ -128,12 +139,7 @@ public class Main extends JavaPlugin implements Listener {
         //endregion
     }
 
-    public void nextRound(Player dead) {
-        if (team1.getPlayer() == dead.getPlayer()) {
-            team2.addPoint(1);
-        } else if (team2.getPlayer() == dead.getPlayer()) {
-            team1.addPoint(1);
-        }
+    public void nextRound() {
         if (round < max_round) {
             refillSnow();
             team1.giveItem();
@@ -206,26 +212,23 @@ public class Main extends JavaPlugin implements Listener {
         Player p = e.getPlayer();
         if (gameActive == 2) {
             if (e.getFrom().add(0, -1, 0).getBlock().getType().equals(Material.EMERALD_BLOCK)) {
-                nextRound(p);
+                if (p.getGameMode() == GameMode.SURVIVAL) {
+                    if (p == team1.getPlayer()) {
+                        team2.addPoint(1);
+                        scoreboard();
+                        nextRound();
+                    } else if (p == team2.getPlayer()) {
+                        team1.addPoint(1);
+                        scoreboard();
+                        nextRound();
+                    }
+                }
             }
         } else if (gameActive == 1) {
             if (p.getPlayer() == team1.getPlayer()) {
                 e.setTo(team1start);
             } else if (p.getPlayer() == team2.getPlayer()) {
                 e.setTo(team2start);
-            }
-        }
-    }
-
-    @EventHandler
-    public void onPlayerDeath(PlayerDeathEvent e) {
-        if(e.getEntity().getPlayer().getGameMode() == GameMode.SURVIVAL) {
-            if (e.getEntity().getPlayer() == team1.getPlayer()) {
-                team2.addPoint(1);
-                scoreboard();
-            } else if (e.getEntity().getPlayer() == team2.getPlayer()) {
-                team1.addPoint(1);
-                scoreboard();
             }
         }
     }
