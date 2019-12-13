@@ -21,6 +21,7 @@ public class Main extends JavaPlugin implements Listener {
     public World world = this.getServer().getWorld("world");
     public Location team1start = new Location(world, 299.5, 112, 134.5, -180, 0);
     public Location team2start = new Location(world, 299.5, 112, 107.5, 0, 0);
+    public Location spectator = new Location(world, 299.5, 118, 134.5, -180, 0);
     public int gameActive = 0;
     private Team team1, team2;
     public int ticks = 1;
@@ -84,9 +85,15 @@ public class Main extends JavaPlugin implements Listener {
         team1 = new Team(sender);
         team2 = new Team(other);
         team1.getPlayer().teleport(team1start);
-        team1.getPlayer().setGameMode(GameMode.SURVIVAL);
         team2.getPlayer().teleport(team2start);
-        team2.getPlayer().setGameMode(GameMode.SURVIVAL);
+        for (Player p : this.getServer().getOnlinePlayers()) {
+            if (p == team1.getPlayer() || p == team2.getPlayer()) {
+                p.setGameMode(GameMode.SURVIVAL);
+            } else {
+                p.setGameMode(GameMode.SPECTATOR);
+                p.teleport(spectator);
+            }
+        }
         round = 1;
         max_round = 5;
         gameActive = 1;
@@ -127,7 +134,7 @@ public class Main extends JavaPlugin implements Listener {
         } else if (team2.getPlayer() == dead.getPlayer()) {
             team1.addPoint(1);
         }
-        if(round < max_round) {
+        if (round < max_round) {
             refillSnow();
             team1.giveItem();
             team2.giveItem();
@@ -163,17 +170,23 @@ public class Main extends JavaPlugin implements Listener {
             world.setTime(1000);
         } else {
             String player_won;
-            if(team1.getPoints() > team2.getPoints()) {
+            if (team1.getPoints() > team2.getPoints()) {
                 player_won = team1.getPlayer().getDisplayName();
-            } else if(team2.getPoints() > team1.getPoints()) {
+            } else if (team2.getPoints() > team1.getPoints()) {
                 player_won = team2.getPlayer().getDisplayName();
-            } else {player_won = "Nobody";}
+            } else {
+                player_won = "Nobody";
+            }
             refillSnow();
             team1.getPlayer().teleport(team1start);
             team2.getPlayer().teleport(team2start);
             String message = ChatColor.WHITE + "has won!";
             TTA_Methods.sendTitle(team1.getPlayer(), (ChatColor.RED + player_won), 5, 10, 5, message, 5, 30, 5);
             TTA_Methods.sendTitle(team2.getPlayer(), (ChatColor.RED + player_won), 5, 10, 5, message, 5, 30, 5);
+
+            for (Player p : this.getServer().getOnlinePlayers()) {
+                p.setGameMode(GameMode.SPECTATOR);
+            }
         }
     }
 
@@ -203,14 +216,17 @@ public class Main extends JavaPlugin implements Listener {
             }
         }
     }
+
     @EventHandler
     public void onPlayerDeath(PlayerDeathEvent e) {
-        if (e.getEntity().getPlayer() == team1.getPlayer()) {
-            team2.addPoint(1);
-            scoreboard();
-        } else if (e.getEntity().getPlayer() == team2.getPlayer()) {
-            team1.addPoint(1);
-            scoreboard();
+        if(e.getEntity().getPlayer().getGameMode() == GameMode.SURVIVAL) {
+            if (e.getEntity().getPlayer() == team1.getPlayer()) {
+                team2.addPoint(1);
+                scoreboard();
+            } else if (e.getEntity().getPlayer() == team2.getPlayer()) {
+                team1.addPoint(1);
+                scoreboard();
+            }
         }
     }
 }
