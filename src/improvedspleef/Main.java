@@ -3,6 +3,7 @@ package improvedspleef;
 
 import de.Herbystar.TTA.TTA_Methods;
 import org.bukkit.*;
+import org.bukkit.block.Block;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 import org.bukkit.event.EventHandler;
@@ -27,8 +28,8 @@ public class Main extends JavaPlugin implements Listener {
   public int ticks = 1;
   public int round;
   public int max_round;
-  public Location firstCorner = new Location(world, 306, 111, 106);
-  public Location secondCorner = new Location(world, 292, 111, 135);
+  public Location firstCorner = new Location(world, 292, 111, 106);
+  public Location secondCorner = new Location(world, 306, 111, 135);
   //endregion
 
   public void onEnable() {
@@ -66,21 +67,25 @@ public class Main extends JavaPlugin implements Listener {
   public void stopGame(Player sender) {
       gameActive = 0;
       sender.sendMessage(ChatColor.translateAlternateColorCodes('&', "&aSUCCESS: &fGame stopped"));
+      world.setTime(1000);
   }
   public void refillSnow() {
-      for(int x = firstCorner.getBlockX(); x < secondCorner.getBlockX(); x++) {
-          for(int z = firstCorner.getBlockZ(); z < secondCorner.getBlockZ(); z++) {
-
-              world.getBlockAt(x, 111, z).setType(Material.SNOW_BLOCK);
+      for(int x = (int) firstCorner.getX(); x < (int) secondCorner.getX(); x++) {
+          for(int z = (int) firstCorner.getZ(); z < (int) secondCorner.getZ(); z++) {
+              Block block = world.getBlockAt(x, 111, z);
+              block.setType(Material.SNOW_BLOCK);
           }
       }
   }
 
   public void startGame(Player sender, Player other) {
+      world.setTime(1000);
       team1 = new Team(sender);
       team2 = new Team(other);
       team1.getPlayer().teleport(team1start);
+      team1.getPlayer().setGameMode(GameMode.SURVIVAL);
       team2.getPlayer().teleport(team2start);
+      team2.getPlayer().setGameMode(GameMode.SURVIVAL);
       round = 1;
       max_round = 5;
       gameActive = 1;
@@ -106,14 +111,16 @@ public class Main extends JavaPlugin implements Listener {
           public void run() {
               TTA_Methods.sendTitle(team1.getPlayer(), (ChatColor.GREEN + "GO"), 5, 10, 5, message, 0, 20, 0);
               TTA_Methods.sendTitle(team2.getPlayer(), (ChatColor.GREEN + "GO"), 5, 10, 5, message, 0, 20, 0);
+              gameActive = 2;
+              scoreboard();
           }
       }, (ticks * 56));
       //endregion
-      gameActive = 2;
-      scoreboard();
   }
   public void nextRound(Player dead) {
       refillSnow();
+      team1.giveItem();
+      team2.giveItem();
       gameActive = 1;
       round += 1;
       team1.getPlayer().teleport(team1start);
@@ -144,11 +151,11 @@ public class Main extends JavaPlugin implements Listener {
           public void run() {
               TTA_Methods.sendTitle(team1.getPlayer(), (ChatColor.GREEN + "GO"), 5, 10, 5, message, 0, 20, 0);
               TTA_Methods.sendTitle(team2.getPlayer(), (ChatColor.GREEN + "GO"), 5, 10, 5, message, 0, 20, 0);
+              gameActive = 2;
           }
       }, (ticks * 56));
       //endregion
-      gameActive = 2;
-
+      world.setTime(1000);
   }
 
   public void scoreboard() {
@@ -168,6 +175,12 @@ public class Main extends JavaPlugin implements Listener {
       if (gameActive == 2) {
           if (e.getFrom().add(0, -1, 0).getBlock().getType().equals(Material.EMERALD_BLOCK)) {
               nextRound(p);
+          }
+      } else if(gameActive == 1) {
+          if(p.getPlayer() == team1.getPlayer()) {
+              e.setTo(team1start);
+          } else if(p.getPlayer() == team2.getPlayer()) {
+              e.setTo(team2start);
           }
       }
   }
