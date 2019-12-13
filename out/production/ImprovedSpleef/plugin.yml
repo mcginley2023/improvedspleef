@@ -1,0 +1,12 @@
+main: improvedspleef.Main
+name: ImprovedSpleef
+version: 1.0
+commands:
+    spleef:
+        description: HAHAHAHAHA
+        ussage: no     oh ok
+    spleef start:
+        description: Starts spleef game
+    spleef reset:
+        description: Resets spleef game
+    spleef test:

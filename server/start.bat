@@ -1,2 +1,2 @@
-java -Xmx2G -jar server.jar
+java -Xmx1G -jar server.jar
 PAUSE
