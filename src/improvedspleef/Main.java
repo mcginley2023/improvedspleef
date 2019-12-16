@@ -8,7 +8,6 @@ import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
-import org.bukkit.event.entity.PlayerDeathEvent;
 import org.bukkit.event.player.PlayerMoveEvent;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.entity.Player;
@@ -84,14 +83,11 @@ public class Main extends JavaPlugin implements Listener {
     }
 
     public void startGame(Player sender, Player other) {
-        repeatingTask = Bukkit.getScheduler().scheduleSyncRepeatingTask(this, new Runnable() {
-            @Override
-            public void run() {
-                team1.getPlayer().setFoodLevel(20);
-                team1.getPlayer().setHealth(20);
-                team2.getPlayer().setFoodLevel(20);
-                team2.getPlayer().setHealth(20);
-            }
+        repeatingTask = Bukkit.getScheduler().scheduleSyncRepeatingTask(this, () -> {
+            team1.getPlayer().setFoodLevel(20);
+            team1.getPlayer().setHealth(20);
+            team2.getPlayer().setFoodLevel(20);
+            team2.getPlayer().setHealth(20);
         }, 0, ticks * 20);
         refillSnow();
         world.setTime(1000);
@@ -116,25 +112,19 @@ public class Main extends JavaPlugin implements Listener {
         String message = ChatColor.WHITE + "Round " + round + " starting in...";
         TTA_Methods.sendTitle(team1.getPlayer(), (ChatColor.RED + "3"), 5, 10, 5, message, 5, 15, 0);
         TTA_Methods.sendTitle(team2.getPlayer(), (ChatColor.RED + "3"), 5, 10, 5, message, 5, 15, 0);
-        Bukkit.getServer().getScheduler().scheduleSyncDelayedTask(this, new Runnable() {
-            public void run() {
-                TTA_Methods.sendTitle(team1.getPlayer(), (ChatColor.GOLD + "2"), 5, 10, 5, message, 0, 20, 0);
-                TTA_Methods.sendTitle(team2.getPlayer(), (ChatColor.GOLD + "2"), 5, 10, 5, message, 0, 20, 0);
-            }
+        Bukkit.getServer().getScheduler().scheduleSyncDelayedTask(this, () -> {
+            TTA_Methods.sendTitle(team1.getPlayer(), (ChatColor.GOLD + "2"), 5, 10, 5, message, 0, 20, 0);
+            TTA_Methods.sendTitle(team2.getPlayer(), (ChatColor.GOLD + "2"), 5, 10, 5, message, 0, 20, 0);
         }, (ticks * 20));
-        Bukkit.getServer().getScheduler().scheduleSyncDelayedTask(this, new Runnable() {
-            public void run() {
-                TTA_Methods.sendTitle(team1.getPlayer(), (ChatColor.YELLOW + "1"), 5, 10, 5, message, 0, 20, 0);
-                TTA_Methods.sendTitle(team2.getPlayer(), (ChatColor.YELLOW + "1"), 5, 10, 5, message, 0, 20, 0);
-            }
+        Bukkit.getServer().getScheduler().scheduleSyncDelayedTask(this, () -> {
+            TTA_Methods.sendTitle(team1.getPlayer(), (ChatColor.YELLOW + "1"), 5, 10, 5, message, 0, 20, 0);
+            TTA_Methods.sendTitle(team2.getPlayer(), (ChatColor.YELLOW + "1"), 5, 10, 5, message, 0, 20, 0);
         }, (ticks * 38));
-        Bukkit.getServer().getScheduler().scheduleSyncDelayedTask(this, new Runnable() {
-            public void run() {
-                TTA_Methods.sendTitle(team1.getPlayer(), (ChatColor.GREEN + "GO"), 5, 10, 5, message, 0, 20, 0);
-                TTA_Methods.sendTitle(team2.getPlayer(), (ChatColor.GREEN + "GO"), 5, 10, 5, message, 0, 20, 0);
-                gameActive = 2;
-                scoreboard();
-            }
+        Bukkit.getServer().getScheduler().scheduleSyncDelayedTask(this, () -> {
+            TTA_Methods.sendTitle(team1.getPlayer(), (ChatColor.GREEN + "GO"), 5, 10, 5, message, 0, 20, 0);
+            TTA_Methods.sendTitle(team2.getPlayer(), (ChatColor.GREEN + "GO"), 5, 10, 5, message, 0, 20, 0);
+            gameActive = 2;
+            scoreboard();
         }, (ticks * 56));
         //endregion
     }
@@ -153,24 +143,18 @@ public class Main extends JavaPlugin implements Listener {
             String message = ChatColor.WHITE + "Round " + round + " starting in...";
             TTA_Methods.sendTitle(team1.getPlayer(), (ChatColor.RED + "3"), 5, 10, 5, message, 5, 15, 0);
             TTA_Methods.sendTitle(team2.getPlayer(), (ChatColor.RED + "3"), 5, 10, 5, message, 5, 15, 0);
-            Bukkit.getServer().getScheduler().scheduleSyncDelayedTask(this, new Runnable() {
-                public void run() {
-                    TTA_Methods.sendTitle(team1.getPlayer(), (ChatColor.GOLD + "2"), 5, 10, 5, message, 0, 20, 0);
-                    TTA_Methods.sendTitle(team2.getPlayer(), (ChatColor.GOLD + "2"), 5, 10, 5, message, 0, 20, 0);
-                }
+            Bukkit.getServer().getScheduler().scheduleSyncDelayedTask(this, () -> {
+                TTA_Methods.sendTitle(team1.getPlayer(), (ChatColor.GOLD + "2"), 5, 10, 5, message, 0, 20, 0);
+                TTA_Methods.sendTitle(team2.getPlayer(), (ChatColor.GOLD + "2"), 5, 10, 5, message, 0, 20, 0);
             }, (ticks * 20));
-            Bukkit.getServer().getScheduler().scheduleSyncDelayedTask(this, new Runnable() {
-                public void run() {
-                    TTA_Methods.sendTitle(team1.getPlayer(), (ChatColor.YELLOW + "1"), 5, 10, 5, message, 0, 20, 0);
-                    TTA_Methods.sendTitle(team2.getPlayer(), (ChatColor.YELLOW + "1"), 5, 10, 5, message, 0, 20, 0);
-                }
+            Bukkit.getServer().getScheduler().scheduleSyncDelayedTask(this, () -> {
+                TTA_Methods.sendTitle(team1.getPlayer(), (ChatColor.YELLOW + "1"), 5, 10, 5, message, 0, 20, 0);
+                TTA_Methods.sendTitle(team2.getPlayer(), (ChatColor.YELLOW + "1"), 5, 10, 5, message, 0, 20, 0);
             }, (ticks * 38));
-            Bukkit.getServer().getScheduler().scheduleSyncDelayedTask(this, new Runnable() {
-                public void run() {
-                    TTA_Methods.sendTitle(team1.getPlayer(), (ChatColor.GREEN + "GO"), 5, 10, 5, message, 0, 20, 0);
-                    TTA_Methods.sendTitle(team2.getPlayer(), (ChatColor.GREEN + "GO"), 5, 10, 5, message, 0, 20, 0);
-                    gameActive = 2;
-                }
+            Bukkit.getServer().getScheduler().scheduleSyncDelayedTask(this, () -> {
+                TTA_Methods.sendTitle(team1.getPlayer(), (ChatColor.GREEN + "GO"), 5, 10, 5, message, 0, 20, 0);
+                TTA_Methods.sendTitle(team2.getPlayer(), (ChatColor.GREEN + "GO"), 5, 10, 5, message, 0, 20, 0);
+                gameActive = 2;
             }, (ticks * 56));
             //endregion
             world.setTime(1000);
