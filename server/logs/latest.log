@@ -1,350 +1,772 @@
-[07:46:39] [Server thread/INFO]: Starting minecraft server version 1.9
-[07:46:39] [Server thread/INFO]: Loading properties
-[07:46:39] [Server thread/WARN]: ressource-pack-hash is depricated. Please use ressource-pack-sha1 instead.
-[07:46:39] [Server thread/INFO]: Default game type: SURVIVAL
-[07:46:39] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-d20369f-7fc5cd8 (MC: 1.9) (Implementing API version 1.9-R0.1-SNAPSHOT)
-[07:46:39] [Server thread/INFO]: Debug logging is disabled
-[07:46:39] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[07:46:39] [Server thread/INFO]: Using 4 threads for Netty based IO
-[07:46:39] [Server thread/INFO]: Generating keypair
-[07:46:39] [Server thread/INFO]: Starting Minecraft server on *:25565
-[07:46:39] [Server thread/INFO]: Using default channel type
-[07:46:40] [Server thread/INFO]: Set PluginClassLoader as parallel capable
-[07:46:40] [Server thread/INFO]: [TTA] Loading TTA v4.9
-[07:46:40] [Server thread/INFO]: [ImprovedSpleef] Loading ImprovedSpleef v1.0
-[07:46:40] [Server thread/INFO]: [LANBroadcaster] Loading LANBroadcaster v1.6.1
-[07:46:40] [Server thread/INFO]: [FastAsyncWorldEdit] Loading FastAsyncWorldEdit v19.11.13-5505943-1282-22.3.5
-[07:46:40] [Server thread/INFO]: [Reloader] Loading Reloader v3.5.0
-[07:46:40] [Server thread/INFO]: [SidebarAPI] Loading SidebarAPI v3.0
-[07:46:40] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1.7;dd00bb1
-[07:46:40] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v19.11.13-5505943-1282-22.3.5
-[07:46:40] [Server thread/INFO]: [0;35;1mVault is used for persistent `/wea` toggles.[m
-[07:46:40] [Server thread/INFO]: [0;30;1m([0;31;22m[21mFAWE[0;30;1m)[m[0;37;22m ====== UPGRADE TO 64-BIT JAVA ======[m
-[07:46:40] [Server thread/INFO]: [0;30;1m([0;31;22m[21mFAWE[0;30;1m)[m[0;37;22m You are running 32-bit Java on a 64-bit machine[m
-[07:46:40] [Server thread/INFO]: [0;30;1m([0;31;22m[21mFAWE[0;30;1m)[m[0;37;22m  - This is only a recommendation[m
-[07:46:40] [Server thread/INFO]: [0;30;1m([0;31;22m[21mFAWE[0;30;1m)[m[0;37;22m ====================================[m
-[07:46:40] [Server thread/INFO]: ====== USE PAPER ======[m
-[07:46:40] [Server thread/INFO]: DOWNLOAD: https://ci.destroystokyo.com/job/PaperSpigot/[m
-[07:46:40] [Server thread/INFO]: GUIDE: https://www.spigotmc.org/threads/21726/[m
-[07:46:40] [Server thread/INFO]:  - This is only a recommendation[m
-[07:46:40] [Server thread/INFO]: ==============================[m
-[07:46:40] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
-[07:46:40] [Server thread/INFO]: Preparing level "world"
-[07:46:40] [Server thread/INFO]: -------- World Settings For [world] --------
-[07:46:40] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[07:46:40] [Server thread/INFO]: Item Merge Radius: 2.5
-[07:46:40] [Server thread/INFO]: Item Despawn Rate: 6000
-[07:46:40] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[07:46:40] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[07:46:40] [Server thread/INFO]: View Distance: 10
-[07:46:40] [Server thread/INFO]: Experience Merge Radius: 3.0
-[07:46:40] [Server thread/INFO]: Max Entity Collisions: 8
-[07:46:40] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[07:46:40] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[07:46:40] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[07:46:40] [Server thread/INFO]: Mob Spawn Range: 4
-[07:46:40] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[07:46:40] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[07:46:40] [Server thread/INFO]: Max TNT Explosions: 100
-[07:46:40] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[07:46:40] [Server thread/INFO]: Structure Info Saving: true
-[07:46:40] [Server thread/INFO]: Random Lighting Updates: false
-[07:46:40] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[07:46:40] [Server thread/INFO]: Cane Growth Modifier: 100%
-[07:46:40] [Server thread/INFO]: Melon Growth Modifier: 100%
-[07:46:40] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[07:46:40] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[07:46:40] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[07:46:40] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[07:46:40] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[07:46:40] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[07:46:40] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[07:46:40] [Server thread/INFO]: Item Merge Radius: 2.5
-[07:46:40] [Server thread/INFO]: Item Despawn Rate: 6000
-[07:46:40] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[07:46:40] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[07:46:40] [Server thread/INFO]: View Distance: 10
-[07:46:40] [Server thread/INFO]: Experience Merge Radius: 3.0
-[07:46:40] [Server thread/INFO]: Max Entity Collisions: 8
-[07:46:40] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[07:46:40] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[07:46:40] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[07:46:40] [Server thread/INFO]: Mob Spawn Range: 4
-[07:46:40] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[07:46:40] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[07:46:40] [Server thread/INFO]: Max TNT Explosions: 100
-[07:46:40] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[07:46:40] [Server thread/INFO]: Structure Info Saving: true
-[07:46:40] [Server thread/INFO]: Random Lighting Updates: false
-[07:46:40] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[07:46:40] [Server thread/INFO]: Cane Growth Modifier: 100%
-[07:46:40] [Server thread/INFO]: Melon Growth Modifier: 100%
-[07:46:40] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[07:46:40] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[07:46:40] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[07:46:40] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[07:46:40] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[07:46:40] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[07:46:40] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[07:46:40] [Server thread/INFO]: Item Merge Radius: 2.5
-[07:46:40] [Server thread/INFO]: Item Despawn Rate: 6000
-[07:46:40] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[07:46:40] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[07:46:40] [Server thread/INFO]: View Distance: 10
-[07:46:40] [Server thread/INFO]: Experience Merge Radius: 3.0
-[07:46:40] [Server thread/INFO]: Max Entity Collisions: 8
-[07:46:40] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[07:46:40] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[07:46:40] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[07:46:40] [Server thread/INFO]: Mob Spawn Range: 4
-[07:46:40] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[07:46:40] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[07:46:40] [Server thread/INFO]: Max TNT Explosions: 100
-[07:46:40] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[07:46:40] [Server thread/INFO]: Structure Info Saving: true
-[07:46:40] [Server thread/INFO]: Random Lighting Updates: false
-[07:46:40] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[07:46:40] [Server thread/INFO]: Cane Growth Modifier: 100%
-[07:46:40] [Server thread/INFO]: Melon Growth Modifier: 100%
-[07:46:40] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[07:46:40] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[07:46:40] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[07:46:40] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[07:46:40] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[07:46:40] [Server thread/INFO]: Preparing start region for level 0 (Seed: -4630567211863175938)
-[07:46:41] [Server thread/INFO]: Preparing spawn area: 15%
-[07:46:42] [Server thread/INFO]: Preparing spawn area: 43%
-[07:46:43] [Server thread/INFO]: Preparing start region for level 1 (Seed: -4630567211863175938)
-[07:46:44] [Server thread/INFO]: Preparing spawn area: 53%
-[07:46:45] [Server thread/INFO]: Preparing spawn area: 85%
-[07:46:45] [Server thread/INFO]: Preparing start region for level 2 (Seed: -4630567211863175938)
-[07:46:46] [Server thread/INFO]: [TTA] Enabling TTA v4.9
-[07:46:46] [Server thread/INFO]: [m
-[07:46:46] [Server thread/INFO]: [0;31;1m=========>[[0;33;22mTTA Terms[0;31;1m]<=========[m
-[07:46:46] [Server thread/INFO]: [0;31;1m-> You are not permitted to claim this plugin as your own![m
-[07:46:46] [Server thread/INFO]: [0;31;1m-> You are not permitted to decompiling the plugin's sourcecode![m
-[07:46:46] [Server thread/INFO]: [0;31;1m-> You are not permitted to modify the code or the plugin and call it your own![m
-[07:46:46] [Server thread/INFO]: [0;31;1m-> You are not permitted to redistributing this plugin as your own![m
-[07:46:46] [Server thread/INFO]: [0;31;1m======>[[0;32;1mTerms Accepted![0;31;1m]<======[m
-[07:46:46] [Server thread/INFO]: [m
-[07:46:47] [Server thread/INFO]: [0;31;1m[[0;33;22mTTA[0;31;1m] [0;31;1m-=> No Update is available! <=-[m
-[07:46:47] [Server thread/INFO]: [0;31;1m[[0;33;22mTTA[0;31;1m] [0;33;22mEngine: [0;33;1mSpigot[m
-[07:46:47] [Server thread/INFO]: [0;31;1m[[0;33;22mTTA[0;31;1m] [0;33;22mMinecraft 1.9 Support [0;32;22menabled![m
-[07:46:47] [Server thread/INFO]: [0;31;1m[[0;33;22mTTA[0;31;1m] [0;32;22mStarted [0;33;22mMetrics [0;32;22msuccessful![m
-[07:46:47] [Server thread/INFO]: [0;31;1m[[0;33;22mTTA[0;31;1m] [0;36;22mVersion: 4.9 [0;32;22mby [0;31;22m[Herbystar][0;32;22m enabled![m
-[07:46:47] [Server thread/INFO]: [ImprovedSpleef] Enabling ImprovedSpleef v1.0
-[07:46:47] [Server thread/INFO]: [LANBroadcaster] Enabling LANBroadcaster v1.6.1
-[07:46:47] [Server thread/INFO]: [Reloader] Enabling Reloader v3.5.0
-[07:46:47] [Server thread/INFO]: [Reloader] Passing Reloader command to command handler
-[07:46:47] [Server thread/INFO]: [Reloader] Passing Plugin command to command listener
-[07:46:47] [Server thread/INFO]: [SidebarAPI] Enabling SidebarAPI v3.0
-[07:46:47] [Server thread/INFO]: [SidebarAPI] Enabled SidebarAPI v3.0
-[07:46:47] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1.7;dd00bb1
-[07:46:47] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[07:46:47] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_9_R1 as the Bukkit adapter
-[07:46:47] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[07:46:47] [Server thread/INFO]: Done (7.502s)! For help, type "help" or "?"
-[07:46:48] [Server thread/INFO]: [0;30;1m([0;31;22m[21mFAWE[0;30;1m)[m[0;37;22m Detected class org.bukkit.event.block.BlockExplodeEvent[m
-[07:46:48] [Craft Scheduler Thread - 3/INFO]: [LANBroadcaster] Broadcasting server with port 25565 over LAN.
-[07:52:30] [Server thread/INFO]: CONSOLE: [0;31;1mPlease note that this command is not supported and may cause issues when using some plugins.[m
-[07:52:30] [Server thread/INFO]: CONSOLE: [0;31;1mIf you encounter any issues please use the /stop command to restart your server.[m
-[07:52:30] [Server thread/INFO]: Debug logging is disabled
-[07:52:30] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[07:52:30] [Server thread/INFO]: Using 4 threads for Netty based IO
-[07:52:30] [Server thread/INFO]: -------- World Settings For [world] --------
-[07:52:30] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[07:52:30] [Server thread/INFO]: Item Merge Radius: 2.5
-[07:52:30] [Server thread/INFO]: Item Despawn Rate: 6000
-[07:52:30] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[07:52:30] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[07:52:30] [Server thread/INFO]: View Distance: 10
-[07:52:30] [Server thread/INFO]: Experience Merge Radius: 3.0
-[07:52:30] [Server thread/INFO]: Max Entity Collisions: 8
-[07:52:30] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[07:52:30] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[07:52:30] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[07:52:30] [Server thread/INFO]: Mob Spawn Range: 4
-[07:52:30] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[07:52:30] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[07:52:30] [Server thread/INFO]: Max TNT Explosions: 100
-[07:52:30] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[07:52:30] [Server thread/INFO]: Structure Info Saving: true
-[07:52:30] [Server thread/INFO]: Random Lighting Updates: false
-[07:52:30] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[07:52:30] [Server thread/INFO]: Cane Growth Modifier: 100%
-[07:52:30] [Server thread/INFO]: Melon Growth Modifier: 100%
-[07:52:30] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[07:52:30] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[07:52:30] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[07:52:30] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[07:52:30] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[07:52:30] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[07:52:30] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[07:52:30] [Server thread/INFO]: Item Merge Radius: 2.5
-[07:52:30] [Server thread/INFO]: Item Despawn Rate: 6000
-[07:52:30] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[07:52:30] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[07:52:30] [Server thread/INFO]: View Distance: 10
-[07:52:30] [Server thread/INFO]: Experience Merge Radius: 3.0
-[07:52:30] [Server thread/INFO]: Max Entity Collisions: 8
-[07:52:30] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[07:52:30] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[07:52:30] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[07:52:30] [Server thread/INFO]: Mob Spawn Range: 4
-[07:52:30] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[07:52:30] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[07:52:30] [Server thread/INFO]: Max TNT Explosions: 100
-[07:52:30] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[07:52:30] [Server thread/INFO]: Structure Info Saving: true
-[07:52:30] [Server thread/INFO]: Random Lighting Updates: false
-[07:52:30] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[07:52:30] [Server thread/INFO]: Cane Growth Modifier: 100%
-[07:52:30] [Server thread/INFO]: Melon Growth Modifier: 100%
-[07:52:30] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[07:52:30] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[07:52:30] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[07:52:30] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[07:52:30] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[07:52:30] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[07:52:30] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[07:52:30] [Server thread/INFO]: Item Merge Radius: 2.5
-[07:52:30] [Server thread/INFO]: Item Despawn Rate: 6000
-[07:52:30] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[07:52:30] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[07:52:30] [Server thread/INFO]: View Distance: 10
-[07:52:30] [Server thread/INFO]: Experience Merge Radius: 3.0
-[07:52:30] [Server thread/INFO]: Max Entity Collisions: 8
-[07:52:30] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[07:52:30] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[07:52:30] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[07:52:30] [Server thread/INFO]: Mob Spawn Range: 4
-[07:52:30] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[07:52:30] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[07:52:30] [Server thread/INFO]: Max TNT Explosions: 100
-[07:52:30] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[07:52:30] [Server thread/INFO]: Structure Info Saving: true
-[07:52:30] [Server thread/INFO]: Random Lighting Updates: false
-[07:52:30] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[07:52:30] [Server thread/INFO]: Cane Growth Modifier: 100%
-[07:52:30] [Server thread/INFO]: Melon Growth Modifier: 100%
-[07:52:30] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[07:52:30] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[07:52:30] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[07:52:30] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[07:52:30] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[07:52:30] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v6.1.7;dd00bb1
-[07:52:30] [Server thread/INFO]: [SidebarAPI] Disabling SidebarAPI v3.0
-[07:52:30] [Server thread/INFO]: [SidebarAPI] Disabled SidebarAPI v3.0
-[07:52:30] [Server thread/INFO]: [Reloader] Disabling Reloader v3.5.0
-[07:52:30] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v19.11.13-5505943-1282-22.3.5
-[07:52:30] [Server thread/INFO]: [LANBroadcaster] Disabling LANBroadcaster v1.6.1
-[07:52:30] [Server thread/INFO]: [ImprovedSpleef] Disabling ImprovedSpleef v1.0
-[07:52:30] [Server thread/INFO]: [TTA] Disabling TTA v4.9
-[07:52:30] [Server thread/INFO]: [0;31;1m[[0;33;22mTTA[0;31;1m] [0;36;22mVersion: 4.9 [0;32;22mby [0;31;22m[Herbystar][0;31;22m disabled![m
-[07:52:30] [Server thread/INFO]: [TTA] Loading TTA v4.9
-[07:52:30] [Server thread/INFO]: [ImprovedSpleef] Loading ImprovedSpleef v1.0
-[07:52:30] [Server thread/INFO]: [LANBroadcaster] Loading LANBroadcaster v1.6.1
-[07:52:30] [Server thread/INFO]: [FastAsyncWorldEdit] Loading FastAsyncWorldEdit v19.11.13-5505943-1282-22.3.5
-[07:52:30] [Server thread/INFO]: [Reloader] Loading Reloader v3.5.0
-[07:52:30] [Server thread/INFO]: [SidebarAPI] Loading SidebarAPI v3.0
-[07:52:30] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1.7;dd00bb1
-[07:52:30] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v19.11.13-5505943-1282-22.3.5
-[07:52:30] [Server thread/INFO]: [0;35;1mVault is used for persistent `/wea` toggles.[m
-[07:52:31] [Server thread/INFO]: [0;30;1m([0;31;22m[21mFAWE[0;30;1m)[m[0;37;22m ====== UPGRADE TO 64-BIT JAVA ======[m
-[07:52:31] [Server thread/INFO]: [0;30;1m([0;31;22m[21mFAWE[0;30;1m)[m[0;37;22m You are running 32-bit Java on a 64-bit machine[m
-[07:52:31] [Server thread/INFO]: [0;30;1m([0;31;22m[21mFAWE[0;30;1m)[m[0;37;22m  - This is only a recommendation[m
-[07:52:31] [Server thread/INFO]: [0;30;1m([0;31;22m[21mFAWE[0;30;1m)[m[0;37;22m ====================================[m
-[07:52:31] [Server thread/INFO]: ====== USE PAPER ======[m
-[07:52:31] [Server thread/INFO]: DOWNLOAD: https://ci.destroystokyo.com/job/PaperSpigot/[m
-[07:52:31] [Server thread/INFO]: GUIDE: https://www.spigotmc.org/threads/21726/[m
-[07:52:31] [Server thread/INFO]:  - This is only a recommendation[m
-[07:52:31] [Server thread/INFO]: ==============================[m
-[07:52:31] [Server thread/INFO]: [TTA] Enabling TTA v4.9
-[07:52:31] [Server thread/INFO]: [m
-[07:52:31] [Server thread/INFO]: [0;31;1m=========>[[0;33;22mTTA Terms[0;31;1m]<=========[m
-[07:52:31] [Server thread/INFO]: [0;31;1m-> You are not permitted to claim this plugin as your own![m
-[07:52:31] [Server thread/INFO]: [0;31;1m-> You are not permitted to decompiling the plugin's sourcecode![m
-[07:52:31] [Server thread/INFO]: [0;31;1m-> You are not permitted to modify the code or the plugin and call it your own![m
-[07:52:31] [Server thread/INFO]: [0;31;1m-> You are not permitted to redistributing this plugin as your own![m
-[07:52:31] [Server thread/INFO]: [0;31;1m======>[[0;32;1mTerms Accepted![0;31;1m]<======[m
-[07:52:31] [Server thread/INFO]: [m
-[07:52:31] [Server thread/INFO]: [0;31;1m[[0;33;22mTTA[0;31;1m] [0;31;1m-=> No Update is available! <=-[m
-[07:52:31] [Server thread/INFO]: [0;31;1m[[0;33;22mTTA[0;31;1m] [0;33;22mEngine: [0;33;1mSpigot[m
-[07:52:31] [Server thread/INFO]: [0;31;1m[[0;33;22mTTA[0;31;1m] [0;33;22mMinecraft 1.9 Support [0;32;22menabled![m
-[07:52:31] [Server thread/INFO]: [0;31;1m[[0;33;22mTTA[0;31;1m] [0;32;22mStarted [0;33;22mMetrics [0;32;22msuccessful![m
-[07:52:31] [Server thread/INFO]: [0;31;1m[[0;33;22mTTA[0;31;1m] [0;36;22mVersion: 4.9 [0;32;22mby [0;31;22m[Herbystar][0;32;22m enabled![m
-[07:52:31] [Server thread/INFO]: [ImprovedSpleef] Enabling ImprovedSpleef v1.0
-[07:52:31] [Server thread/INFO]: [LANBroadcaster] Enabling LANBroadcaster v1.6.1
-[07:52:31] [Server thread/INFO]: [Reloader] Enabling Reloader v3.5.0
-[07:52:31] [Server thread/INFO]: [Reloader] Passing Reloader command to command handler
-[07:52:31] [Server thread/INFO]: [Reloader] Passing Plugin command to command listener
-[07:52:31] [Server thread/INFO]: [SidebarAPI] Enabling SidebarAPI v3.0
-[07:52:31] [Server thread/INFO]: [SidebarAPI] Enabled SidebarAPI v3.0
-[07:52:31] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1.7;dd00bb1
-[07:52:31] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[07:52:32] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_9_R1 as the Bukkit adapter
-[07:52:32] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[07:52:32] [Server thread/INFO]: CONSOLE: [0;32;1mReload complete.[m
-[07:52:32] [Server thread/INFO]: [0;30;1m([0;31;22m[21mFAWE[0;30;1m)[m[0;37;22m Detected class org.bukkit.event.block.BlockExplodeEvent[m
-[07:52:32] [Craft Scheduler Thread - 5/INFO]: [LANBroadcaster] Broadcasting server with port 25565 over LAN.
-[07:52:52] [User Authenticator #1/INFO]: UUID of player MicroClient is eb5e2d48-b175-49ab-af49-d9b0185e159f
-[07:52:52] [Server thread/INFO]: MicroClient[/10.10.41.228:58533] logged in with entity id 379 at ([world]297.23548924289616, 115.20000004768372, 124.52716861946496)
-[07:52:56] [Server thread/INFO]: MicroClient issued server command: /plugins
-[07:53:04] [Server thread/INFO]: MicroClient issued server command: /spleef start MicroClient
-[07:53:10] [Server thread/INFO]: MicroClient issued server command: /spleef stop
-[07:53:14] [Server thread/INFO]: MicroClient issued server command: //wand
-[07:53:19] [Server thread/INFO]: MicroClient issued server command: /gamemode c
-[07:53:19] [Server thread/INFO]: [MicroClient: Set own game mode to Creative Mode]
-[07:53:34] [Server thread/INFO]: MicroClient issued server command: //replace snow end_gateway
-[07:53:37] [Server thread/INFO]: MicroClient issued server command: /wea
-[07:53:38] [Server thread/INFO]: MicroClient issued server command: //replace snow end_gateway
-[07:54:11] [Server thread/INFO]: MicroClient issued server command: //undo
-[07:54:29] [Server thread/INFO]: MicroClient issued server command: //set end_gateway
-[07:54:55] [Server thread/INFO]: MicroClient issued server command: //set end_gateway
-[07:55:07] [Server thread/INFO]: MicroClient issued server command: //set end_gateway
-[07:56:52] [Server thread/INFO]: MicroClient lost connection: Disconnected
-[07:56:52] [Server thread/INFO]: MicroClient left the game.
-[08:00:32] [User Authenticator #2/INFO]: UUID of player MicroClient is eb5e2d48-b175-49ab-af49-d9b0185e159f
-[08:00:32] [Server thread/INFO]: MicroClient[/10.10.41.228:58737] logged in with entity id 1230 at ([world]310.15436009837197, 117.19731824550584, 142.3831537383926)
-[08:04:04] [Server thread/INFO]: MicroClient issued server command: /toggledownfall
-[08:04:04] [Server thread/INFO]: [MicroClient: Toggled downfall]
-[08:04:41] [Server thread/INFO]: MicroClient issued server command: //set end_gateway
-[08:04:45] [Server thread/INFO]: MicroClient issued server command: /wea
-[08:04:46] [Server thread/INFO]: MicroClient issued server command: //set end_gateway
-[08:05:03] [Server thread/INFO]: MicroClient issued server command: //set end_gateway
-[08:05:11] [Server thread/INFO]: MicroClient issued server command: //set end_gateway
-[08:06:05] [Server thread/INFO]: MicroClient lost connection: Disconnected
-[08:06:05] [Server thread/INFO]: MicroClient left the game.
-[08:06:53] [User Authenticator #3/INFO]: UUID of player MicroClient is eb5e2d48-b175-49ab-af49-d9b0185e159f
-[08:06:53] [Server thread/INFO]: MicroClient[/10.10.41.228:58987] logged in with entity id 2033 at ([world]300.7400730264388, 112.0, 108.17245732329077)
-[08:13:37] [Server thread/INFO]: MicroClient issued server command: //replacenear 50 end_gateway snow
-[08:13:39] [Server thread/INFO]: MicroClient issued server command: /wea
-[08:13:40] [Server thread/INFO]: MicroClient issued server command: //replacenear 50 end_gateway snow
-[08:14:07] [Server thread/INFO]: MicroClient issued server command: //set end_portak
-[08:14:09] [Server thread/INFO]: MicroClient issued server command: //set end_porta;
-[08:14:10] [Server thread/INFO]: MicroClient issued server command: //set end_portal
-[08:14:12] [Server thread/WARN]: MicroClient moved too quickly! -208.59443500334845,-69.53584062504456,-112.30000001192093
-[08:14:12] [Server thread/INFO]: Scanning for legacy world dragon fight...
-[08:14:12] [Server thread/INFO]: Found that the dragon has not yet been killed in this world.
-[08:14:12] [Server thread/INFO]: Found that there's a dragon still alive (EntityEnderDragon['Ender Dragon'/2679, l='world_the_end', x=45.63, y=89.61, z=-12.76])
-[08:14:23] [Server thread/INFO]: MicroClient issued server command: /give
-[08:16:11] [Server thread/INFO]: MicroClient issued server command: /effect give @s strength 60 250
-[08:16:11] [Server thread/INFO]: [MicroClient: The entity UUID provided is in an invalid format]
-[08:16:20] [Server thread/INFO]: MicroClient issued server command: /effect MicroClient strength 60 250
-[08:16:20] [Server thread/INFO]: [MicroClient: Given Strength (ID 5) * 250 to MicroClient for 60 seconds]
-[08:17:01] [Server thread/WARN]: MicroClient moved too quickly! -2.8079940757144186,8.743147630125165,25.134110985893415
-[08:17:17] [Server thread/INFO]: MicroClient issued server command: //copy
-[08:17:19] [Server thread/INFO]: MicroClient issued server command: //paste
-[08:17:34] [Server thread/INFO]: MicroClient issued server command: //copy
-[08:17:38] [Server thread/INFO]: MicroClient issued server command: //paste
-[08:17:42] [Server thread/INFO]: MicroClient issued server command: //paste
-[08:17:43] [Server thread/INFO]: MicroClient issued server command: //paste
-[08:17:52] [Server thread/INFO]: MicroClient issued server command: /world
-[08:17:57] [Server thread/INFO]: MicroClient issued server command: /kill
-[08:17:57] [Server thread/INFO]: MicroClient fell out of the world
-[08:17:57] [Server thread/INFO]: [MicroClient: Killed MicroClient]
-[08:17:59] [Server thread/INFO]: MicroClient issued server command: //wand
-[08:18:02] [Server thread/INFO]: MicroClient issued server command: //paste
-[08:18:26] [Server thread/INFO]: MicroClient lost connection: Internal Exception: java.io.IOException: An existing connection was forcibly closed by the remote host
-[08:18:26] [Server thread/INFO]: MicroClient left the game.
-[08:18:27] [Server thread/WARN]: MicroClient moved too quickly! -14.199662324216888,31.993136338025565,-0.8377278906131664
+[08:00:19] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[08:00:19] [Server thread/INFO]: Loading properties
+[08:00:19] [Server thread/INFO]: Default game type: SURVIVAL
+[08:00:19] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-21fe707-e1ebe52 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[08:00:19] [Server thread/INFO]: Debug logging is disabled
+[08:00:19] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[08:00:19] [Server thread/INFO]: Using 4 threads for Netty based IO
+[08:00:19] [Server thread/INFO]: Generating keypair
+[08:00:19] [Server thread/INFO]: Starting Minecraft server on *:25565
+[08:00:19] [Server thread/INFO]: Using default channel type
+[08:00:20] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[08:00:20] [Server thread/INFO]: [TTA] Loading TTA v4.9
+[08:00:20] [Server thread/INFO]: [ImprovedSpleef] Loading ImprovedSpleef v1.0
+[08:00:20] [Server thread/INFO]: [LANBroadcaster] Loading LANBroadcaster v1.6.1
+[08:00:20] [Server thread/INFO]: [FastAsyncWorldEdit] Loading FastAsyncWorldEdit v19.11.13-5505943-1282-22.3.5
+[08:00:20] [Server thread/INFO]: [Reloader] Loading Reloader v3.5.0
+[08:00:20] [Server thread/INFO]: [SidebarAPI] Loading SidebarAPI v3.0
+[08:00:20] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1.7;dd00bb1
+[08:00:20] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v19.11.13-5505943-1282-22.3.5
+[08:00:20] [Server thread/INFO]: [0;35;1mVault is used for persistent `/wea` toggles.[m
+[08:00:20] [Server thread/INFO]: [0;30;1m([0;31;22m[21mFAWE[0;30;1m)[m[0;37;22m ====== UPGRADE TO 64-BIT JAVA ======[m
+[08:00:20] [Server thread/INFO]: [0;30;1m([0;31;22m[21mFAWE[0;30;1m)[m[0;37;22m You are running 32-bit Java on a 64-bit machine[m
+[08:00:20] [Server thread/INFO]: [0;30;1m([0;31;22m[21mFAWE[0;30;1m)[m[0;37;22m  - This is only a recommendation[m
+[08:00:20] [Server thread/INFO]: [0;30;1m([0;31;22m[21mFAWE[0;30;1m)[m[0;37;22m ====================================[m
+[08:00:20] [Server thread/INFO]: ====== USE PAPER ======[m
+[08:00:20] [Server thread/INFO]: DOWNLOAD: https://ci.destroystokyo.com/job/PaperSpigot/[m
+[08:00:20] [Server thread/INFO]: GUIDE: https://www.spigotmc.org/threads/21726/[m
+[08:00:20] [Server thread/INFO]:  - This is only a recommendation[m
+[08:00:20] [Server thread/INFO]: ==============================[m
+[08:00:20] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[08:00:20] [Server thread/INFO]: Preparing level "world"
+[08:00:20] [Server thread/INFO]: -------- World Settings For [world] --------
+[08:00:20] [Server thread/INFO]: View Distance: 10
+[08:00:20] [Server thread/INFO]: Item Merge Radius: 2.5
+[08:00:20] [Server thread/INFO]: Item Despawn Rate: 6000
+[08:00:20] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[08:00:20] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[08:00:20] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[08:00:20] [Server thread/INFO]: Experience Merge Radius: 3.0
+[08:00:20] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[08:00:20] [Server thread/INFO]: Clear tick list: false
+[08:00:20] [Server thread/INFO]: Anti X-Ray: true
+[08:00:20] [Server thread/INFO]: 	Engine Mode: 1
+[08:00:20] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[08:00:20] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[08:00:20] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[08:00:20] [Server thread/INFO]: Mob Spawn Range: 4
+[08:00:20] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[08:00:20] [Server thread/INFO]: Structure Info Saving: true
+[08:00:20] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[08:00:20] [Server thread/INFO]: Max TNT Explosions: 100
+[08:00:20] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[08:00:20] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[08:00:20] [Server thread/INFO]: Cane Growth Modifier: 100%
+[08:00:20] [Server thread/INFO]: Melon Growth Modifier: 100%
+[08:00:20] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[08:00:20] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[08:00:20] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[08:00:20] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[08:00:20] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[08:00:20] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[08:00:20] [Server thread/INFO]: Random Lighting Updates: false
+[08:00:20] [Server thread/INFO]: Sending up to 10 chunks per packet
+[08:00:20] [Server thread/INFO]: Max Entity Collisions: 8
+[08:00:20] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[08:00:20] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[08:00:20] [Server thread/INFO]: View Distance: 10
+[08:00:20] [Server thread/INFO]: Item Merge Radius: 2.5
+[08:00:20] [Server thread/INFO]: Item Despawn Rate: 6000
+[08:00:20] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[08:00:20] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[08:00:20] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[08:00:20] [Server thread/INFO]: Experience Merge Radius: 3.0
+[08:00:20] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[08:00:20] [Server thread/INFO]: Clear tick list: false
+[08:00:20] [Server thread/INFO]: Anti X-Ray: true
+[08:00:20] [Server thread/INFO]: 	Engine Mode: 1
+[08:00:20] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[08:00:20] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[08:00:20] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[08:00:20] [Server thread/INFO]: Mob Spawn Range: 4
+[08:00:20] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[08:00:20] [Server thread/INFO]: Structure Info Saving: true
+[08:00:20] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[08:00:20] [Server thread/INFO]: Max TNT Explosions: 100
+[08:00:20] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[08:00:20] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[08:00:20] [Server thread/INFO]: Cane Growth Modifier: 100%
+[08:00:20] [Server thread/INFO]: Melon Growth Modifier: 100%
+[08:00:20] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[08:00:20] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[08:00:20] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[08:00:20] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[08:00:20] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[08:00:20] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[08:00:20] [Server thread/INFO]: Random Lighting Updates: false
+[08:00:20] [Server thread/INFO]: Sending up to 10 chunks per packet
+[08:00:20] [Server thread/INFO]: Max Entity Collisions: 8
+[08:00:20] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[08:00:20] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[08:00:20] [Server thread/INFO]: View Distance: 10
+[08:00:20] [Server thread/INFO]: Item Merge Radius: 2.5
+[08:00:20] [Server thread/INFO]: Item Despawn Rate: 6000
+[08:00:20] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[08:00:20] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[08:00:20] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[08:00:20] [Server thread/INFO]: Experience Merge Radius: 3.0
+[08:00:20] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[08:00:20] [Server thread/INFO]: Clear tick list: false
+[08:00:20] [Server thread/INFO]: Anti X-Ray: true
+[08:00:20] [Server thread/INFO]: 	Engine Mode: 1
+[08:00:20] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[08:00:20] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[08:00:20] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[08:00:20] [Server thread/INFO]: Mob Spawn Range: 4
+[08:00:20] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[08:00:20] [Server thread/INFO]: Structure Info Saving: true
+[08:00:20] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[08:00:20] [Server thread/INFO]: Max TNT Explosions: 100
+[08:00:20] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[08:00:20] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[08:00:20] [Server thread/INFO]: Cane Growth Modifier: 100%
+[08:00:20] [Server thread/INFO]: Melon Growth Modifier: 100%
+[08:00:20] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[08:00:20] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[08:00:20] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[08:00:20] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[08:00:20] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[08:00:20] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[08:00:20] [Server thread/INFO]: Random Lighting Updates: false
+[08:00:20] [Server thread/INFO]: Sending up to 10 chunks per packet
+[08:00:20] [Server thread/INFO]: Max Entity Collisions: 8
+[08:00:20] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[08:00:20] [Server thread/INFO]: Preparing start region for level 0 (Seed: -4630567211863175938)
+[08:00:20] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/INFO]: Preparing spawn area: 84%
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:21] [Server thread/INFO]: Preparing start region for level 1 (Seed: -4630567211863175938)
+[08:00:22] [Server thread/INFO]: Preparing start region for level 2 (Seed: -4630567211863175938)
+[08:00:23] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:23] [Server thread/WARN]: Skipping BlockEntity with id EndGateway
+[08:00:23] [Server thread/WARN]: Skipping BlockEntity with id EndGateway
+[08:00:23] [Server thread/WARN]: Skipping BlockEntity with id EndGateway
+[08:00:23] [Server thread/WARN]: Skipping BlockEntity with id EndGateway
+[08:00:23] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:23] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:23] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:23] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:23] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:23] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:23] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:23] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:23] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:23] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:23] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:23] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:23] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:23] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:23] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:23] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:23] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:23] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:23] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:23] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:23] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:23] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:23] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:23] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:23] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:23] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:23] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:23] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:23] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:23] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:23] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:23] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:23] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:23] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:23] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:23] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:23] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:23] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:23] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:00:23] [Server thread/INFO]: [TTA] Enabling TTA v4.9
+[08:00:23] [Server thread/INFO]: [m
+[08:00:23] [Server thread/INFO]: [0;31;1m=========>[[0;33;22mTTA Terms[0;31;1m]<=========[m
+[08:00:23] [Server thread/INFO]: [0;31;1m-> You are not permitted to claim this plugin as your own![m
+[08:00:23] [Server thread/INFO]: [0;31;1m-> You are not permitted to decompiling the plugin's sourcecode![m
+[08:00:23] [Server thread/INFO]: [0;31;1m-> You are not permitted to modify the code or the plugin and call it your own![m
+[08:00:23] [Server thread/INFO]: [0;31;1m-> You are not permitted to redistributing this plugin as your own![m
+[08:00:23] [Server thread/INFO]: [0;31;1m======>[[0;32;1mTerms Accepted![0;31;1m]<======[m
+[08:00:23] [Server thread/INFO]: [m
+[08:00:25] [Server thread/INFO]: [0;31;1m[[0;33;22mTTA[0;31;1m] [0;31;1m-=> No Update is available! <=-[m
+[08:00:25] [Server thread/INFO]: [0;31;1m[[0;33;22mTTA[0;31;1m] [0;33;22mEngine: [0;33;1mSpigot[m
+[08:00:25] [Server thread/INFO]: [0;31;1m[[0;33;22mTTA[0;31;1m] [0;33;22mMinecraft 1.8.4-1.8.9 Support [0;32;22menabled![m
+[08:00:25] [Server thread/INFO]: [0;31;1m[[0;33;22mTTA[0;31;1m] [0;32;22mStarted [0;33;22mMetrics [0;32;22msuccessful![m
+[08:00:25] [Server thread/INFO]: [0;31;1m[[0;33;22mTTA[0;31;1m] [0;36;22mVersion: 4.9 [0;32;22mby [0;31;22m[Herbystar][0;32;22m enabled![m
+[08:00:25] [Server thread/INFO]: [ImprovedSpleef] Enabling ImprovedSpleef v1.0
+[08:00:25] [Server thread/INFO]: [LANBroadcaster] Enabling LANBroadcaster v1.6.1
+[08:00:25] [Server thread/INFO]: [Reloader] Enabling Reloader v3.5.0
+[08:00:25] [Server thread/INFO]: [Reloader] Passing Reloader command to command handler
+[08:00:25] [Server thread/INFO]: [Reloader] Passing Plugin command to command listener
+[08:00:25] [Server thread/INFO]: [SidebarAPI] Enabling SidebarAPI v3.0
+[08:00:25] [Server thread/INFO]: [SidebarAPI] Enabled SidebarAPI v3.0
+[08:00:25] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1.7;dd00bb1
+[08:00:25] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[08:00:25] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
+[08:00:25] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[08:00:25] [Server thread/INFO]: Done (4.710s)! For help, type "help" or "?"
+[08:00:25] [Server thread/INFO]: [0;30;1m([0;31;22m[21mFAWE[0;30;1m)[m[0;37;22m Detected class org.bukkit.event.block.BlockExplodeEvent[m
+[08:00:26] [Craft Scheduler Thread - 3/INFO]: [LANBroadcaster] Broadcasting server with port 25565 over LAN.
+[08:01:22] [User Authenticator #1/INFO]: UUID of player MicroClient is eb5e2d48-b175-49ab-af49-d9b0185e159f
+[08:01:22] [Server thread/WARN]: Invalid statistic in .\world\stats\eb5e2d48-b175-49ab-af49-d9b0185e159f.json: Don't know what stat.sneakTime is
+[08:01:22] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:01:22] [Server thread/WARN]: Ignoring unknown attribute 'generic.attackSpeed'
+[08:01:22] [Server thread/WARN]: Ignoring unknown attribute 'generic.luck'
+[08:01:22] [Server thread/INFO]: MicroClient[/10.10.41.228:63720] logged in with entity id 378 at ([world]-921.5, 65.5, 302.5)
+[08:01:22] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:01:22] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:01:22] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:01:22] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:01:22] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:01:22] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:01:22] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:01:22] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:01:23] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:01:23] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:01:23] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:01:23] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:01:23] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:01:23] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:01:23] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:01:23] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:01:23] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:01:23] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:01:23] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:01:23] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:01:23] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:01:23] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:01:23] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:01:23] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:01:23] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:01:23] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:01:23] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:01:23] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:01:23] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:01:23] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:01:23] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:01:23] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:01:23] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:01:23] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:01:23] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:01:23] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:01:23] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:01:23] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:01:23] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:01:23] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:01:23] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:01:23] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:01:23] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:01:23] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:01:23] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:01:23] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:01:23] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:01:23] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:01:23] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:01:23] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:01:23] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:01:23] [Server thread/WARN]: Ignoring unknown attribute 'generic.armor'
+[08:01:43] [Server thread/INFO]: MicroClient issued server command: /kill
+[08:01:43] [Server thread/INFO]: MicroClient fell out of the world
+[08:01:43] [Server thread/INFO]: [MicroClient: Killed MicroClient]
+[08:01:48] [Server thread/INFO]: MicroClient issued server command: //wand
+[08:02:03] [Server thread/INFO]: MicroClient issued server command: /SPLEEF START MicroClient
+[08:02:03] [Server thread/WARN]: [ImprovedSpleef] Task #21 for ImprovedSpleef v1.0 generated an exception
+java.lang.NullPointerException
+	at improvedspleef.Main.lambda$startGame$0(Main.java:87) ~[?:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:71) ~[server.jar:git-Spigot-21fe707-e1ebe52]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:350) [server.jar:git-Spigot-21fe707-e1ebe52]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:723) [server.jar:git-Spigot-21fe707-e1ebe52]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:374) [server.jar:git-Spigot-21fe707-e1ebe52]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:654) [server.jar:git-Spigot-21fe707-e1ebe52]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:557) [server.jar:git-Spigot-21fe707-e1ebe52]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_231]
+[08:02:04] [Server thread/WARN]: [ImprovedSpleef] Task #21 for ImprovedSpleef v1.0 generated an exception
+java.lang.NullPointerException
+	at improvedspleef.Main.lambda$startGame$0(Main.java:87) ~[?:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:71) ~[server.jar:git-Spigot-21fe707-e1ebe52]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:350) [server.jar:git-Spigot-21fe707-e1ebe52]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:723) [server.jar:git-Spigot-21fe707-e1ebe52]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:374) [server.jar:git-Spigot-21fe707-e1ebe52]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:654) [server.jar:git-Spigot-21fe707-e1ebe52]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:557) [server.jar:git-Spigot-21fe707-e1ebe52]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_231]
+[08:02:05] [Server thread/WARN]: [ImprovedSpleef] Task #21 for ImprovedSpleef v1.0 generated an exception
+java.lang.NullPointerException
+	at improvedspleef.Main.lambda$startGame$0(Main.java:87) ~[?:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:71) ~[server.jar:git-Spigot-21fe707-e1ebe52]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:350) [server.jar:git-Spigot-21fe707-e1ebe52]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:723) [server.jar:git-Spigot-21fe707-e1ebe52]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:374) [server.jar:git-Spigot-21fe707-e1ebe52]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:654) [server.jar:git-Spigot-21fe707-e1ebe52]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:557) [server.jar:git-Spigot-21fe707-e1ebe52]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_231]
+[08:02:06] [Server thread/INFO]: MicroClient issued server command: /reload
+[08:02:06] [Server thread/INFO]: MicroClient: [0;31;1mPlease note that this command is not supported and may cause issues when using some plugins.[m
+[08:02:06] [Server thread/INFO]: MicroClient: [0;31;1mIf you encounter any issues please use the /stop command to restart your server.[m
+[08:02:06] [Server thread/INFO]: Debug logging is disabled
+[08:02:06] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[08:02:06] [Server thread/INFO]: Using 4 threads for Netty based IO
+[08:02:06] [Server thread/INFO]: -------- World Settings For [world] --------
+[08:02:06] [Server thread/INFO]: View Distance: 10
+[08:02:06] [Server thread/INFO]: Item Merge Radius: 2.5
+[08:02:06] [Server thread/INFO]: Item Despawn Rate: 6000
+[08:02:06] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[08:02:06] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[08:02:06] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[08:02:06] [Server thread/INFO]: Experience Merge Radius: 3.0
+[08:02:06] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[08:02:06] [Server thread/INFO]: Clear tick list: false
+[08:02:06] [Server thread/INFO]: Anti X-Ray: true
+[08:02:06] [Server thread/INFO]: 	Engine Mode: 1
+[08:02:06] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[08:02:06] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[08:02:06] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[08:02:06] [Server thread/INFO]: Mob Spawn Range: 4
+[08:02:06] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[08:02:06] [Server thread/INFO]: Structure Info Saving: true
+[08:02:06] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[08:02:06] [Server thread/INFO]: Max TNT Explosions: 100
+[08:02:06] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[08:02:06] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[08:02:06] [Server thread/INFO]: Cane Growth Modifier: 100%
+[08:02:06] [Server thread/INFO]: Melon Growth Modifier: 100%
+[08:02:06] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[08:02:06] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[08:02:06] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[08:02:06] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[08:02:06] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[08:02:06] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[08:02:06] [Server thread/INFO]: Random Lighting Updates: false
+[08:02:06] [Server thread/INFO]: Sending up to 10 chunks per packet
+[08:02:06] [Server thread/INFO]: Max Entity Collisions: 8
+[08:02:06] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[08:02:06] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[08:02:06] [Server thread/INFO]: View Distance: 10
+[08:02:06] [Server thread/INFO]: Item Merge Radius: 2.5
+[08:02:06] [Server thread/INFO]: Item Despawn Rate: 6000
+[08:02:06] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[08:02:06] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[08:02:06] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[08:02:06] [Server thread/INFO]: Experience Merge Radius: 3.0
+[08:02:06] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[08:02:06] [Server thread/INFO]: Clear tick list: false
+[08:02:06] [Server thread/INFO]: Anti X-Ray: true
+[08:02:06] [Server thread/INFO]: 	Engine Mode: 1
+[08:02:06] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[08:02:06] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[08:02:06] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[08:02:06] [Server thread/INFO]: Mob Spawn Range: 4
+[08:02:06] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[08:02:06] [Server thread/INFO]: Structure Info Saving: true
+[08:02:06] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[08:02:06] [Server thread/INFO]: Max TNT Explosions: 100
+[08:02:06] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[08:02:06] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[08:02:06] [Server thread/INFO]: Cane Growth Modifier: 100%
+[08:02:06] [Server thread/INFO]: Melon Growth Modifier: 100%
+[08:02:06] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[08:02:06] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[08:02:06] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[08:02:06] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[08:02:06] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[08:02:06] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[08:02:06] [Server thread/INFO]: Random Lighting Updates: false
+[08:02:06] [Server thread/INFO]: Sending up to 10 chunks per packet
+[08:02:06] [Server thread/INFO]: Max Entity Collisions: 8
+[08:02:06] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[08:02:06] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[08:02:06] [Server thread/INFO]: View Distance: 10
+[08:02:06] [Server thread/INFO]: Item Merge Radius: 2.5
+[08:02:06] [Server thread/INFO]: Item Despawn Rate: 6000
+[08:02:06] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[08:02:06] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[08:02:06] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[08:02:06] [Server thread/INFO]: Experience Merge Radius: 3.0
+[08:02:06] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[08:02:06] [Server thread/INFO]: Clear tick list: false
+[08:02:06] [Server thread/INFO]: Anti X-Ray: true
+[08:02:06] [Server thread/INFO]: 	Engine Mode: 1
+[08:02:06] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[08:02:06] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[08:02:06] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[08:02:06] [Server thread/INFO]: Mob Spawn Range: 4
+[08:02:06] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[08:02:06] [Server thread/INFO]: Structure Info Saving: true
+[08:02:06] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[08:02:06] [Server thread/INFO]: Max TNT Explosions: 100
+[08:02:06] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[08:02:06] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[08:02:06] [Server thread/INFO]: Cane Growth Modifier: 100%
+[08:02:06] [Server thread/INFO]: Melon Growth Modifier: 100%
+[08:02:06] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[08:02:06] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[08:02:06] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[08:02:06] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[08:02:06] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[08:02:06] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[08:02:06] [Server thread/INFO]: Random Lighting Updates: false
+[08:02:06] [Server thread/INFO]: Sending up to 10 chunks per packet
+[08:02:06] [Server thread/INFO]: Max Entity Collisions: 8
+[08:02:06] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[08:02:06] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v6.1.7;dd00bb1
+[08:02:06] [Server thread/INFO]: [SidebarAPI] Disabling SidebarAPI v3.0
+[08:02:06] [Server thread/INFO]: [SidebarAPI] Disabled SidebarAPI v3.0
+[08:02:06] [Server thread/INFO]: [Reloader] Disabling Reloader v3.5.0
+[08:02:06] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v19.11.13-5505943-1282-22.3.5
+[08:02:06] [Server thread/INFO]: [LANBroadcaster] Disabling LANBroadcaster v1.6.1
+[08:02:06] [Server thread/INFO]: [ImprovedSpleef] Disabling ImprovedSpleef v1.0
+[08:02:06] [Server thread/INFO]: [TTA] Disabling TTA v4.9
+[08:02:06] [Server thread/INFO]: [0;31;1m[[0;33;22mTTA[0;31;1m] [0;36;22mVersion: 4.9 [0;32;22mby [0;31;22m[Herbystar][0;31;22m disabled![m
+[08:02:06] [Server thread/INFO]: [TTA] Loading TTA v4.9
+[08:02:06] [Server thread/INFO]: [ImprovedSpleef] Loading ImprovedSpleef v1.0
+[08:02:06] [Server thread/INFO]: [LANBroadcaster] Loading LANBroadcaster v1.6.1
+[08:02:06] [Server thread/INFO]: [FastAsyncWorldEdit] Loading FastAsyncWorldEdit v19.11.13-5505943-1282-22.3.5
+[08:02:06] [Server thread/INFO]: [Reloader] Loading Reloader v3.5.0
+[08:02:06] [Server thread/INFO]: [SidebarAPI] Loading SidebarAPI v3.0
+[08:02:06] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1.7;dd00bb1
+[08:02:06] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v19.11.13-5505943-1282-22.3.5
+[08:02:06] [Server thread/INFO]: [0;35;1mVault is used for persistent `/wea` toggles.[m
+[08:02:07] [Server thread/INFO]: [0;30;1m([0;31;22m[21mFAWE[0;30;1m)[m[0;37;22m ====== UPGRADE TO 64-BIT JAVA ======[m
+[08:02:07] [Server thread/INFO]: [0;30;1m([0;31;22m[21mFAWE[0;30;1m)[m[0;37;22m You are running 32-bit Java on a 64-bit machine[m
+[08:02:07] [Server thread/INFO]: [0;30;1m([0;31;22m[21mFAWE[0;30;1m)[m[0;37;22m  - This is only a recommendation[m
+[08:02:07] [Server thread/INFO]: [0;30;1m([0;31;22m[21mFAWE[0;30;1m)[m[0;37;22m ====================================[m
+[08:02:07] [Server thread/INFO]: ====== USE PAPER ======[m
+[08:02:07] [Server thread/INFO]: DOWNLOAD: https://ci.destroystokyo.com/job/PaperSpigot/[m
+[08:02:07] [Server thread/INFO]: GUIDE: https://www.spigotmc.org/threads/21726/[m
+[08:02:07] [Server thread/INFO]:  - This is only a recommendation[m
+[08:02:07] [Server thread/INFO]: ==============================[m
+[08:02:07] [Server thread/INFO]: [TTA] Enabling TTA v4.9
+[08:02:07] [Server thread/INFO]: [m
+[08:02:07] [Server thread/INFO]: [0;31;1m=========>[[0;33;22mTTA Terms[0;31;1m]<=========[m
+[08:02:07] [Server thread/INFO]: [0;31;1m-> You are not permitted to claim this plugin as your own![m
+[08:02:07] [Server thread/INFO]: [0;31;1m-> You are not permitted to decompiling the plugin's sourcecode![m
+[08:02:07] [Server thread/INFO]: [0;31;1m-> You are not permitted to modify the code or the plugin and call it your own![m
+[08:02:07] [Server thread/INFO]: [0;31;1m-> You are not permitted to redistributing this plugin as your own![m
+[08:02:07] [Server thread/INFO]: [0;31;1m======>[[0;32;1mTerms Accepted![0;31;1m]<======[m
+[08:02:07] [Server thread/INFO]: [m
+[08:02:07] [Server thread/INFO]: [0;31;1m[[0;33;22mTTA[0;31;1m] [0;31;1m-=> No Update is available! <=-[m
+[08:02:07] [Server thread/INFO]: [0;31;1m[[0;33;22mTTA[0;31;1m] [0;33;22mEngine: [0;33;1mSpigot[m
+[08:02:07] [Server thread/INFO]: [0;31;1m[[0;33;22mTTA[0;31;1m] [0;33;22mMinecraft 1.8.4-1.8.9 Support [0;32;22menabled![m
+[08:02:07] [Server thread/INFO]: [0;31;1m[[0;33;22mTTA[0;31;1m] [0;32;22mStarted [0;33;22mMetrics [0;32;22msuccessful![m
+[08:02:07] [Server thread/INFO]: [0;31;1m[[0;33;22mTTA[0;31;1m] [0;36;22mVersion: 4.9 [0;32;22mby [0;31;22m[Herbystar][0;32;22m enabled![m
+[08:02:07] [Server thread/INFO]: [ImprovedSpleef] Enabling ImprovedSpleef v1.0
+[08:02:07] [Server thread/INFO]: [LANBroadcaster] Enabling LANBroadcaster v1.6.1
+[08:02:07] [Server thread/INFO]: [Reloader] Enabling Reloader v3.5.0
+[08:02:07] [Server thread/INFO]: [Reloader] Passing Reloader command to command handler
+[08:02:07] [Server thread/INFO]: [Reloader] Passing Plugin command to command listener
+[08:02:08] [Server thread/INFO]: [SidebarAPI] Enabling SidebarAPI v3.0
+[08:02:08] [Server thread/INFO]: [SidebarAPI] Enabled SidebarAPI v3.0
+[08:02:08] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1.7;dd00bb1
+[08:02:08] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[08:02:08] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
+[08:02:08] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[08:02:08] [Server thread/INFO]: MicroClient: [0;32;1mReload complete.[m
+[08:02:08] [Server thread/INFO]: [0;30;1m([0;31;22m[21mFAWE[0;30;1m)[m[0;37;22m Detected class org.bukkit.event.block.BlockExplodeEvent[m
+[08:02:09] [Server thread/INFO]: MicroClient issued server command: /SPLEEF START MicroClient
+[08:02:09] [Craft Scheduler Thread - 6/INFO]: [LANBroadcaster] Broadcasting server with port 25565 over LAN.
+[08:02:33] [Server thread/INFO]: MicroClient issued server command: /spleef stop
+[08:02:42] [Server thread/INFO]: MicroClient lost connection: Disconnected
+[08:02:42] [Server thread/INFO]: MicroClient left the game.
